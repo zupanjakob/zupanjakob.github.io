@@ -114,15 +114,6 @@
 
 	<footer class="container-fluid text-center">
 		<div class="row">
-
-			<div class="nogaLevo col-sm-6">
-				<a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i></a>
-				<a href="#" data-toggle="tooltip" data-placement="top" title="Linkedin"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
-				<a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
-				<a href="#" data-toggle="tooltip" data-placement="top" title="Google+"><i class="fa fa-google-plus-square fa-2x" aria-hidden="true"></i></a>
-				<a href="#" data-toggle="tooltip" data-placement="top" title="Youtube"><i class="fa fa-youtube-square fa-2x" aria-hidden="true"></i></a>
-				<a href="#" data-toggle="tooltip" data-placement="top" title="Snapchat"><i class="fa fa-snapchat-square fa-2x" aria-hidden="true"></i></a>
-			</div>
 			<div class="nogaDesno col-sm-6">
 				© e-recepti, Jakob Zupan
 			</div>
@@ -132,23 +123,5 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    
-
-    <script>
-		function myMap() {
-		  var myCenter = new google.maps.LatLng(46.250623,14.348762);
-		  var mapCanvas = document.getElementById("map");
-		  var mapOptions = {center: myCenter, zoom: 15};
-		  var map = new google.maps.Map(mapCanvas, mapOptions);
-		  var marker = new google.maps.Marker({position:myCenter});
-		  marker.setMap(map);
-
-		  var infowindow = new google.maps.InfoWindow({
-			content: "<b>eNSA, Bootstrap</b><br>ŠC Kranj<br>Kidričeva cesta 55<br>4000 Kranj"
-		  });
-		  infowindow.open(map,marker);
-		}
-	</script>  
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNwS87CPSATXb_nkhTmN5-VxgLBuMbW3I&amp;callback=myMap"></script>
-
-</body><div id="smartyContainer" style="position: absolute; top: 0px; right: 0px; line-height: initial; z-index: 2147483647; width: auto; font-size: initial;"></div></html>
+</body>
+</html>
